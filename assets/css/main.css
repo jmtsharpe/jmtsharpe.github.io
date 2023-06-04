@@ -3099,6 +3099,8 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		display: flex;
+		flex-direction: row;
 	}
 
 		#header h1 {
@@ -3192,6 +3194,7 @@ input, select, textarea {
 			#header {
 				height: 2.75em;
 				line-height: 2.75em;
+				font-size: 12px;
 			}
 
 				#header nav {
@@ -3227,6 +3230,9 @@ input, select, textarea {
 				white-space: nowrap;
 				text-indent: 4em;
 				position: relative;
+				padding: 0 0.5em;
+			}
+			#header nav a{
 				padding: 0 0.5em;
 			}
 
@@ -3486,8 +3492,8 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				/* background-color: #2e3141;
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3935,7 +3941,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				margin: 4.75em 0;
+				/* margin: 4.75em 0; */
 			}
 
 				.wrapper:before, .wrapper:after {
@@ -3970,7 +3976,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				margin: 2.5em 0;
+				/* margin: 2.5em 0; */
 			}
 
 				.wrapper:before, .wrapper:after {
@@ -4099,8 +4105,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			/* background-color: #2e3141;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 			background-size: auto,
  cover;
 			background-position: center,
