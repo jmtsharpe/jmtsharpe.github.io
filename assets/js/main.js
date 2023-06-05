@@ -9,7 +9,11 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$banner = $('#banner');
+		$banner = $('#banner'),
+		$cookieConsent = $('#cookie-consent');
+
+
+	var hideCookieConsent = () => $cookieConsent.addClass('hidden');
 
 	// Breakpoints.
 		breakpoints({
